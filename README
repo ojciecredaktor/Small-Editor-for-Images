@@ -1,0 +1,11 @@
+v 0.1 2011-10-19
+Created class Core.class
+Here you can add components to two JPanels drawArea and controlArea.
+
+FileTree class creates Jlist called dataList with implemented ListSelectionListener.
+dataList loads images from directory "backgrounds" set in my_dir variable. 
+
+DrawImage class displays JLabel picLabel which should display selected image, but here I have problem.
+Problem is can't pass value from ListSelectionListener called "lListener" from FileTree class to DrawImage class.
+
+
