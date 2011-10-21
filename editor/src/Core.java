@@ -11,7 +11,7 @@ public class Core extends JFrame {
 		 content.setBackground(Color.LIGHT_GRAY); //setting background color to Gray
 		 JPanel controlArea = new JPanel(new GridLayout(3,1)); // JPanel for controls
 		 			
-		 controlArea.add(new ComboBoxPanel("Czcionki")); //adding control of ComboBoxPanel
+		 
 		 controlArea.add(new FileTree()); //adding FileTree control 
 		 add(controlArea, BorderLayout.EAST);
 		 
